@@ -11,8 +11,7 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-jss": "^7.0.2",
-    "react-styleguidist": "^6.0.10"
+    "react-jss": "^7.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
