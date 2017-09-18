@@ -99,15 +99,12 @@ export default class Canvas extends React.Component {
   }
 
   render() {
-    let {source, width, height, children} = this.props;
-    let canvasStyle = {
-      display: source ? 'block' : 'none'
-    };
+    let {source, width, height, children, style, id, className} = this.props;
 
     return (
-      <div style={{width, height}} className="darkroom-canvas">
+      <div className={className}>
         {children}
-        <canvas style={canvasStyle} ref="canvas" width={width} height={height} />
+        <canvas style={style} id={id} ref="canvas" width={width} height={height} />
       </div>
     );
   }
